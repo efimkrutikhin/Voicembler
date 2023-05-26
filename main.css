@@ -56,5 +56,14 @@ body{
     }
     .search_text{
         font-size: 50px;
+        padding-right: 40px;
+    }
+    .search_button{
+        position: absolute;
+        width: 240px;
+        height: 150px;
+        left: 0;
+        top: 0;
+        display: none; /* Изначально скрываем кнопку */
     }
 }
