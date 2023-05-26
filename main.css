@@ -1,0 +1,60 @@
+@import url(zero_style.css);
+
+body{
+    font-family:'Comfortaa', cursive;
+    background-color: #FFF0B5;
+}
+
+
+@media (min-width:1200px), (max-width:1920px){
+    .wrapper{
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    header{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        height: 10rem;
+        width: 100vw;
+        padding: 0 5rem 0 5rem;
+    
+    }
+    
+    .header_logo{
+        font-family: 'Cherry Bomb One', cursive;
+        font-size: 4rem;
+    }
+    
+    .container{
+        width:120rem;
+        height: 100vh;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+
+    }
+    .welcome_text{
+        font-size: 10rem;
+        text-align: center;
+    }
+    .container_search{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 50px 0 0 0;
+        width: 120rem;
+        height: 15rem;
+        background-color: #fff;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+    }
+    .search_text{
+        font-size: 50px;
+    }
+}
